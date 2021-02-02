@@ -1,21 +1,21 @@
 def intoASCII():
-  reply = "y"
-  inputCharacter = input("Enter a character to be converted to ASCII:")
-  resultASCII = ord(inputCharacter)
-  print(inputCharacter,"in ASCII Unicode is",resultASCII)
+    reply = "y"
+    inputCharacter = input("Enter a character to be converted to ASCII:")
+    resultASCII = ord(inputCharacter)
+    print(inputCharacter,"in ASCII Unicode is",resultASCII)
 
 #main program
 intoASCII()
 
 
 def intoEnglish():
-  reply = "y"
-  inputASCII = int(input("Enter ASCII to be converted into characters:"))
-  resultCharacter = chr(inputASCII)
-  print(inputASCII,"in ASCII Unicode is",resultCharacter)
-  reply = input("Do you want to convert more ASCII?").lower()
-  if reply == "y":
-    intoEnglish()
+    reply = "y"
+    inputASCII = int(input("Enter ASCII to be converted into characters:"))
+    resultCharacter = chr(inputASCII)
+    print(inputASCII,"in ASCII Unicode is",resultCharacter)
+    reply = input("Do you want to convert more ASCII?").lower()
+    if reply == "y":
+      intoEnglish()
 
 #main program
 intoEnglish()
