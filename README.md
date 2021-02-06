@@ -1,4 +1,6 @@
-# Convert-ASCII-to-English-or-Denary
+# convert-ASCII-to-english-or-denary
+
+![image](https://www.codefactor.io/repository/github/KennyOliver/convert-ascii-to-english-or-denary/badge)
 
 This Python tool allows you to Convert between ASCII and English/Denary!
 
