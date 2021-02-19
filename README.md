@@ -11,4 +11,5 @@ This Python tool allows you to Convert between ASCII and English/Denary!
 | ASCII | --> | Denary |
 | Denary | --> | ASCII |
 
+---
 Kenny Oliver ©2021
