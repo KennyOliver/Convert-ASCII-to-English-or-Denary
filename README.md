@@ -1,8 +1,8 @@
-# convert-ascii-to-english-or-denary
+# convert-ascii-eng-den
 
-![image](https://www.codefactor.io/repository/github/KennyOliver/convert-ascii-to-english-or-denary/badge?style=for-the-badge)
+![image](https://www.codefactor.io/repository/github/KennyOliver/convert-ascii-eng-den/badge?style=for-the-badge)
 
-[![](https://repl.it/badge/github/KennyOliver/convert-ascii-to-english-or-denary)](https://repl.it/@KennyOliver/convert-ascii-to-english-or-denary)
+[![](https://repl.it/badge/github/KennyOliver/convert-ascii-eng-den)](https://repl.it/@KennyOliver/convert-ascii-eng-den)
 
 This Python tool allows you to Convert between ASCII and English/Denary!
 
