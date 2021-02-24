@@ -1,48 +1,16 @@
 def intoASCII():
-    reply = "y"
-    inputCharacter = input("Enter a character to be converted to ASCII:")
-    resultASCII = ord(inputCharacter)
-    print(inputCharacter,"in ASCII Unicode is",resultASCII)
-
-#main program
-intoASCII()
-
-
+  reply = "y"
+  input_char = input("Enter a character to be converted to ASCII: ")
+  print(f"\"{input_char}\" in Unicode is {ord(input_char)}")
+#====================
 def intoEnglish():
-    reply = "y"
-    inputASCII = int(input("Enter ASCII to be converted into characters:"))
-    resultCharacter = chr(inputASCII)
-    print(inputASCII,"in ASCII Unicode is",resultCharacter)
-    reply = input("Do you want to convert more ASCII?").lower()
-    if reply == "y":
-      intoEnglish()
-
-#main program
+  reply = "y"
+  input_code = int(input("Enter ASCII to be converted into characters: "))
+  print(f"\"{input_code}\" in Unicode is {chr(input_code)}")
+  reply = input("Do you want to convert more ASCII?\n--> ").lower()
+  if reply == "y":
+    intoEnglish()
+#====================
+# MAIN PROGRAM
+intoASCII()
 intoEnglish()
-
-
-#Dr. Hughes's work:
-def char_to_denary():
-    print("Program to convert a Unicode character into denary")
-    reply = "y"
-    while reply == "y":
-        char = input("Enter character ? ")
-        print(ord(char))
-
-        reply = input("Do you want to continue another character Y or N ?").lower()
-        if reply == "y":
-          char_to_denary()
-char_to_denary()
-
-
-def denary_to_char():
-    print("Program to convert denary value into Unicode character")
-    reply = "y"
-    while reply == "y":
-        char = int(input("Enter denary value? "))
-        print(ord(char))
-
-        reply = input("Do you want to continue another character Y or N ?").lower()
-        if reply == "y":
-          denary_to_char()
-denary_to_char()
