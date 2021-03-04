@@ -7,7 +7,7 @@
 
 [![repl](https://repl.it/badge/github/KennyOliver/char-unicode-converter)](https://repl.it/@KennyOliver/char-unicode-converter)
 
-This Python tool allows you to Convert between ASCII and English/Denary!
+This tool allows you to Convert between Unicode and English!
 
 | FROM | --> | TO |
 | :--: | :-: | :-: |
